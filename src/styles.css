@@ -1,3 +1,12 @@
 body {
   font-family: sans-serif;
 }
+:root {
+  --color1: pink;
+}
+
+.element1 {
+  background: var(--color1);
+  height: 300px;
+  width: 400px;
+}

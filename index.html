@@ -4,15 +4,21 @@
     <title>Parcel Sandbox</title>
     <meta charset="UTF-8" />
     <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="/src/styles.css" />
   </head>
 
   <body>
     <div class="headline">
-      <p>Hola</p>
+      <div class="element1" id="element1">
+        <p class="one">He</p>
+        <p class="two">llo</p>
+      </div>
     </div>
 
     <script>
-      ScrollReveal().reveal(".headline", { delay: 5000 });
+      ScrollReveal().reveal(".element1");
+      ScrollReveal().reveal(".one", { delay: 1000 });
+      ScrollReveal().reveal(".two", { delay: 2000 });
     </script>
   </body>
 </html>
