@@ -10,21 +10,13 @@
   <body>
     <div class="headline">
       <div class="element1" id="element1">
-        <p class="one">He</p>
+        <h2 class="one">He</h2>
         <p class="two">llo</p>
       </div>
     </div>
 
     <script>
-      ScrollReveal().reveal(".element1");
-      ScrollReveal().reveal(".one", { delay: 1000 });
-      ScrollReveal().reveal(".two", { delay: 2000 });
-      ScrollReveal().reveal(".two", {
-        duration: 2000,
-        distance: "500px",
-        origin: "bottom",
-        scale: 3
-      });
+      ScrollReveal().reveal(".one", { scale: 3 });
     </script>
   </body>
 </html>
