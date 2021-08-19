@@ -11,12 +11,14 @@
     <div class="headline">
       <div class="element1" id="element1">
         <h2 class="one">He</h2>
-        <p class="two">llo</p>
+        <p class="one">llo</p>
+        <p class="two">there!</p>
       </div>
     </div>
 
     <script>
-      ScrollReveal().reveal(".one", { scale: 3 });
+      ScrollReveal().reveal(".one", { interval: 300, scale: 3 });
+      ScrollReveal().reveal(".two", { delay: 1000 });
     </script>
   </body>
 </html>
