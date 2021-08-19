@@ -2,7 +2,7 @@ body {
   font-family: sans-serif;
 }
 :root {
-  --color1: pink;
+  --color1: #e7e0c9;
   --firstFont: "Permanent Marker", cursive;
   --secondFont: "Fredoka One", cursive;
 }
@@ -11,6 +11,7 @@ body {
   background: var(--color1);
   height: 600px;
   width: 400px;
+  border-radius: 20px;
 }
 .one {
   font-size: 5rem;
