@@ -3,6 +3,8 @@ body {
 }
 :root {
   --color1: pink;
+  --firstFont: "Permanent Marker", cursive;
+  --secondFont: "Fredoka One", cursive;
 }
 
 .element1 {
@@ -14,12 +16,14 @@ body {
   font-size: 5rem;
   margin-left: 30px;
   color: white;
+  font-family: var(--firstFont);
 }
 
 .two {
   font-size: 5rem;
   margin-left: 30px;
   color: white;
+  font-family: var(--firstFont);
 }
 .headline {
   height: 300vh;
